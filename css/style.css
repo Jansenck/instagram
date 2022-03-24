@@ -1,0 +1,100 @@
+body{
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    background-color: #e5e5e5;
+}
+.top-bar{
+    height: 60px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: red;
+}
+.top-bar-contents{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+}
+.top-bar-contents .logo{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+.logo img{
+    border-left: 1px solid #e5e5e5;
+    padding-left: 10px;
+}
+ion-icon {
+    height: 25px;
+    width: 25px;
+}
+input{
+    text-align: center;
+    height: 20px;
+    width: 250px;
+    background-color: #dbdbdb;
+    border-radius: 3px;
+}
+.interactions{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+.container{
+    width: 70%;
+    height: 100vh;
+    margin: 0 15%;
+    box-sizing:border-box;
+    
+    position:relative;
+
+    background-color: green;
+}
+.stories-bar{
+    height: 120px;
+    width: 100%;
+    margin: 15px 0;
+    background-color: aqua;
+}
+.feed{
+    height: 100vh;
+    width:70%;
+    background-color:darkcyan;
+}
+.followers-suggestions{
+    height: 500px;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: crimson;
+}
+.about{
+    height: 200px;
+    width: 30%;
+    position: absolute;
+    top: 510px;
+    right: 0;
+    background-color:greenyellow;
+}
+.post .profile-user{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+.post .profile-user img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
