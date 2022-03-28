@@ -232,6 +232,22 @@ input{
     border-radius: 100%;
     margin-right:15px;
 }
+.bottom-bar{
+    height: 55px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #dbdbdb;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    bottom: 0;
+
+    display: none;
+}
 .followers-suggestions{
     height: 400px;
     width: 32%;
@@ -374,6 +390,9 @@ input{
     }
     .top-bar-contents .logo{
         width: 60%;
+    }
+    .bottom-bar{
+        display:flex;
     }
 
 }
