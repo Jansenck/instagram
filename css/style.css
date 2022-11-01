@@ -132,7 +132,7 @@ input{
     z-index: 1;
 }
 .feed{
-    height: 100vh;
+    height: 100%;
     max-width: 691px;
     width:65%;
 }
